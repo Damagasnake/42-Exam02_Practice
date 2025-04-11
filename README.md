@@ -1,4 +1,3 @@
-My tests for every exercice in Exam Rank02
 # 42 Exam Rank02 Tests
 
 ## Overview
