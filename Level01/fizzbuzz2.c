@@ -7,6 +7,7 @@ void    ft_putnbr(int n)
         ft_putnbr(n/10);
     write(1,&str[n % 10], 1);
 }
+
 int main(void)
 {
     int n = 1;
@@ -24,3 +25,4 @@ int main(void)
         write(1,"\n", 1);
     }
 }
+
