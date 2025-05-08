@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include <unistd.h>
-
+/*
 int ft_atoi(char *str)
 {
     int i = 0;
@@ -31,3 +31,23 @@ int ft_atoi(char *str)
     }
     return (signo * resultado);
 }
+*/
+
+int ft_atoi(const char *str)
+{
+    int nbr = 0;
+    int sign = 1;
+    int i = 0;
+    
+    if(str[0] == '-' || str[0] == '+')
+    {
+        if(str[0] == '-')
+            sign = -1;
+        i += 1;
+        
+    }
+    while(str[i] && str[i] >= '0' && str[i] <= '9')
+        nbr = (nbr * 10) + (str[i++] -'0');
+    return(nbr *sign);
+}
+
