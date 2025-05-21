@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include <unistd.h>
+#include <string.h>
 /*
 int ft_atoi(char *str)
 {
@@ -47,7 +48,7 @@ int ft_atoi(const char *str)
         
     }
     while(str[i] && str[i] >= '0' && str[i] <= '9')
-        nbr = (nbr * 10) + (str[i++] -'0');
+        nbr = (nbr * 10) + (str[i++] - '0');
     return(nbr *sign);
 }
 
