@@ -6,12 +6,13 @@
 /*   By: davidma2 <davidma2@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/22 13:22:19 by davidma2          #+#    #+#             */
-/*   Updated: 2025/04/22 13:22:22 by davidma2         ###   ########.fr       */
+/*   Updated: 2025/06/03 09:49:18 by davidma2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-char *strcpy(char *s1, char *s2)
+
+char *ft_strcpy(char *s1, char *s2)
 {
     int i = 0;
     while (s2[i])
