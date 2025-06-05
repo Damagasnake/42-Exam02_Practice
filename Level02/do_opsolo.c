@@ -8,7 +8,7 @@ int main(int ac, char **av)
     int n2 = 0;
     int res = 0;
     
-    if(ac ==4)
+    if(ac == 4)
     {
         n1 = atoi(av[1]);
         n2 = atoi(av[3]);
