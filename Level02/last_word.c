@@ -8,6 +8,14 @@ int main(int ac, char **av)
         while(av[1][i])
             i++;
         i--;
-        while()
+        while(av[1][i] == ' ' || av[1][i] == '\t')
+            i--;
+        while (av[1][i] >= 'A' )
+        {
+            /* code */
+        }
+        
     }
 }
+
+// hola que tal         

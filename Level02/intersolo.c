@@ -30,7 +30,7 @@ void    inter(char *s1, char *s2)
     int i = 0;
     while (s1[i])
     {
-        if(checkpresence(s2, s1[i]) && !checkrepeat(s1, s1[1], i))
+        if(checkpresence(s2, s1[i]) && !checkrepeat(s1, s1[i], i))
             write(1, &s1[i], 1);
         i++;
     }
